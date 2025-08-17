@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tea House</title>
+
+    <!-- tailwind css cdn -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- fontawsome cdn -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <div class="banner-section  container mx-auto flex justify-between items-center">
+       <div class="left-s ">
+          <h1 class="text-[80px] font-bold  leading-20" >It's good <br>
+          Tea time at The <br> Tea House</h1>
+          <p class="text-[18px] my-10">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
+          <button class="w-[200px] h-[64px] bg-red-600 text-xl text-white rounded-lg">Explore More
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+       </div>
+       <div class="right-s  ">
+         <img src="./images/banner.png"class="relative top-[100px]" alt="">
+         <div class=" w-[255px] h-[100px] flex gap-3.5 absolute bg-white items-center rounded-[10px] shadow-md">
+           <span class="text-3xl ml-2.5"><i class="fa-solid fa-star"></i></span>
+           <div>
+            <p class="text-4xl font-bold">5.00</p>
+            <p class="text-2xl opacity-60">Trust Pilot Ratings</p>
+           </div>
+         </div>
+       </div>
+    </div>
 </body>
 </html>
