@@ -12,18 +12,18 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="banner-section  container mx-auto flex justify-between items-center">
+    <div class="banner-section  container mx-auto flex flex-col md:flex-row justify-between items-center">
        <div class="left-s ">
           <h1 class="text-[80px] font-bold  leading-20" >It's good <br>
           Tea time at The <br> Tea House</h1>
           <p class="text-[18px] my-10">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
-          <button class="w-[200px] h-[64px] bg-red-600 text-xl text-white rounded-lg">Explore More
-            <i class="fa-solid fa-arrow-right"></i>
+          <button class="w-[200px] h-[64px] bg-red-600 text-xl text-white rounded-lg bg-gradient-to-l from-[#FF0000] to-[#FF8936]">Explore More
+            <span ><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
           </button>
        </div>
        <div class="right-s  ">
          <img src="./images/banner.png"class="relative top-[100px]" alt="">
-         <div class=" w-[255px] h-[100px] flex gap-3.5 absolute bg-white items-center rounded-[10px] shadow-md">
+         <div class=" w-[255px] h-[100px] flex gap-3.5 absolute bg-white items-center rounded-[10px] shadow-md ml-20">
            <span class="text-3xl ml-2.5"><i class="fa-solid fa-star"></i></span>
            <div>
             <p class="text-4xl font-bold">5.00</p>
@@ -31,6 +31,35 @@
            </div>
          </div>
        </div>
+    </div>
+    
+    <div class="feature-product my-40 container mx-auto ">
+      <h1 class="text-5xl font-bold text-center">Our Featured Products</h1>
+      <p class="text-center  opacity-60 mt-3 mb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      
+      <div class="feature-card min-h-[400px]  flex flex-col md:flex-row gap-5 justify-center p-4">
+        <div class="card-1 w-[250px]   text-center bg-gradient-to-b from-[#f5f5f5] to-[#ffffff] rounded-lg p-4 shadow-md ">
+          <img class="mx-auto" src="./images/tea-1.png" alt="">
+          <h1 class="font-bold text-1xl mt-3">Milk Tea</h1>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="card-1 w-[250px]   text-center bg-gradient-to-b from-[#f5f5f5] to-[#ffffff]  p-4 rounded-lg shadow-md">
+          <img class="mx-auto" src="./images/tea-2.png" alt="">
+          <h1 class="font-bold text-1xl mt-3">Black Tea</h1>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="card-1 w-[250px]   text-center bg-gradient-to-b from-[#f5f5f5] to-[#ffffff]  p-4 rounded-lg shadow-md">
+          <img class="mx-auto" src="./images/tea-3.png" alt="">
+          <h1 class="font-bold text-1xl mt-3">Lemon Tea</h1>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="card-1 w-[250px]   text-center bg-gradient-to-b from-[#f5f5f5] to-[#ffffff]  p-4 rounded-lg shadow-md">
+          <img class="mx-auto" src="./images/tea-4.png" alt="">
+          <h1 class="font-bold text-1xl mt-3">Green Tea</h1>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+      </div>
+      
     </div>
 </body>
 </html>
